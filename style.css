@@ -1,0 +1,19 @@
+:root{--sky:#3e6fdd;--ink:#171717;--paper:#fffbeb;--tape:#ffd23f;--soft:#4b5263}
+*{box-sizing:border-box}
+html{background:var(--sky)}
+body{margin:0;min-height:100vh;background:var(--sky) radial-gradient(#ffffff24 1.6px,transparent 2.1px) 0 0/11px 11px;color:var(--ink);font:500 16px/1.55 "Rubik",system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:680px;margin:0 auto;padding:28px 16px 48px}
+.card{background:var(--paper);border:3px solid var(--ink);border-radius:18px;box-shadow:4px 4px 0 var(--ink);padding:22px 22px 18px;margin:0 0 20px}
+h1,h2{font-family:"Bungee","Arial Black",Impact,sans-serif;font-weight:400;line-height:1.15;margin:0 0 10px}
+h1{font-size:30px;color:#fff;text-shadow:3px 3px 0 var(--ink);margin:6px 0 20px}
+h2{font-size:20px;margin-top:6px}
+h3{font-size:16px;font-weight:800;margin:18px 0 4px}
+p,ul{margin:0 0 12px}ul{padding-left:20px}li{margin:0 0 6px}
+a{color:#1d4ed8;font-weight:700}
+.app{display:flex;gap:16px;align-items:center}
+.app img{width:84px;height:84px;border-radius:20px;border:3px solid var(--ink);box-shadow:3px 3px 0 var(--ink);flex:none}
+.app p{margin:4px 0 0;color:var(--soft)}
+.btn{display:inline-block;margin:4px 8px 4px 0;padding:10px 16px;border:3px solid var(--ink);border-radius:12px;background:var(--tape);box-shadow:3px 3px 0 var(--ink);color:var(--ink);text-decoration:none;font-weight:800}
+.small{font-size:14px;color:var(--soft)}
+footer{color:#fff;font-size:14px;text-align:center;opacity:.85}
+footer a{color:#fff}
